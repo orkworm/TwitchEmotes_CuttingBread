@@ -1,0 +1,8 @@
+## Interface: 110200
+## Title: TwitchEmotes_CuttingBread
+## Author: Orkworm
+## Version: 1.0.0
+## Dependency: TwitchEmotes
+## IconTexture: Interface\AddOns\TwitchEmotes_CuttingBread\Emotes\1960bread.tga
+
+Main.lua
