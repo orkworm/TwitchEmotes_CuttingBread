@@ -100,6 +100,14 @@ local cuttingbread_emotes = {
 	["vegan"] = path .. "vegan.tga:32:32",
 	["wooow"] = path .. "wooow.tga:32:32",
 	["disappear"] = path .. "disappear.tga:32:32",
+	["smash"] = path .. "smash.tga:32:32",
+	["spit"] = path .. "spit.tga:32:32",
+	["classic"] = path .. "classic.tga:32:32",
+	["comrade"] = path .. "ComradePepe.tga:32:32",
+	["dealwithit"] = path .. "dealwithit.tga:32:32",
+	["elclassico"] = path .. "elclassico.tga:32:32",
+	["greenclassic"] = path .. "greenclassic.tga:32:32",
+	["yap"] = path .. "yap.tga:32:32",
 	
 	-- static, HxW
     ["1090sir"] = path .. "1090sir.tga:28:28",
@@ -199,6 +207,32 @@ local cuttingbread_emotes = {
     ["wow_Warrior"] = path .. "wow_Warrior.tga:28:28",
     ["youngthug"] = path .. "youngthug.tga:28:28",
     ["yuh"] = path .. "yuh.tga:42:64",
+    ["GOONING"] = path .. "GOONING.tga:32:32",
+    ["gooned"] = path .. "gooned.tga:27:32",
+    ["chudbrain"] = path .. "chudbrain.tga:32:32",
+    ["chud"] = path .. "chud.tga:32:32",
+    ["chudthink"] = path .. "chudthink.tga:32:32",
+    ["coomer"] = path .. "coomer.tga:32:32",
+    ["cope"] = path .. "cope.tga:32:32",
+    ["crydge"] = path .. "crydge.tga:32:32",
+    ["evilsmirk"] = path .. "evilsmirk.tga:32:32",
+    ["greed"] = path .. "greed.tga:32:32",
+    ["nobitches"] = path .. "nobitches.tga:32:32",
+    ["notroping"] = path .. "notroping.tga:32:32",
+    ["wojak"] = path .. "pink_wojak.tga:32:31",
+    ["seethe"] = path .. "seethe.tga:32:28",
+    ["shhh"] = path .. "shhh.tga:32:32",
+    ["sinister"] = path .. "sinister.tga:32:32",
+    ["slurpjak"] = path .. "Slurpjak_1.tga:32:32",
+    ["soy"] = path .. "soychamp.tga:32:32",
+    ["soylook"] = path .. "soylook.tga:32:32",
+    ["toobased"] = path .. "toobased.tga:32:32",
+    ["worry"] = path .. "worry.tga:32:32",
+    ["zoomer"] = path .. "zoomernocap.tga:32:32",
+    ["orkworm"] = path .. "orkworm.tga:16:89",
+    ["ork"] = path .. "orkworm.tga:16:89",
+    ["garf"] = path .. "garf.tga:32:32",
+    ["ongarf"] = path .. "ongarf.tga:32:26",
 }
 
 TwitchEmotesCuttingBread_AddAnimation(
@@ -308,6 +342,15 @@ TwitchEmotesCuttingBread_AddAnimation(
     32 * 21, -- imageHeight (pixels)
     15       -- framerate (fps) - tweak to preference
 )
+
+TwitchEmotesCuttingBread_AddAnimation(path .. "smash.tga", 7, 32, 32, 32, 32 * 7, 30)
+TwitchEmotesCuttingBread_AddAnimation(path .. "spit.tga", 13, 32, 32, 32, 32 * 13, 15)
+TwitchEmotesCuttingBread_AddAnimation(path .. "classic.tga", 51, 32, 32, 32, 32 * 51, 20)
+TwitchEmotesCuttingBread_AddAnimation(path .. "ComradePepe.tga", 15, 32, 32, 32, 32 * 15, 20)
+TwitchEmotesCuttingBread_AddAnimation(path .. "dealwithit.tga", 10, 32, 32, 32, 32 * 10, 30)
+TwitchEmotesCuttingBread_AddAnimation(path .. "elclassico.tga", 61, 32, 32, 32, 32 * 61, 20)
+TwitchEmotesCuttingBread_AddAnimation(path .. "greenclassic.tga", 51, 32, 32, 32, 32 * 51, 20)
+TwitchEmotesCuttingBread_AddAnimation(path .. "yap.tga", 32, 32, 32, 32, 32 * 32, 20)
 
 function cuttingbread_table_length(T)
   local count = 0
