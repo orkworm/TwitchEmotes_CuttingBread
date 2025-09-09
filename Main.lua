@@ -108,6 +108,15 @@ local cuttingbread_emotes = {
 	["elclassico"] = path .. "elclassico.tga:32:32",
 	["greenclassic"] = path .. "greenclassic.tga:32:32",
 	["yap"] = path .. "yap.tga:32:32",
+	["docyap"] = path .. "docyap.tga:32:32",
+	["1984"] = path .. "1984.tga:32:32",
+	["ret"] = path .. "ret.tga:32:32",
+	["BANGER"] = path .. "BANGER.tga:32:32",
+	["wifecheck"] = path .. "wifecheck.tga:32:32",
+	["iq"] = path .. "iq.tga:32:32",
+	["9parse"] = path .. "9parse.tga:32:32",	
+	["assault"] = path .. "assault.tga:32:32",	
+		
 	
 	-- static, HxW
     ["1090sir"] = path .. "1090sir.tga:28:28",
@@ -233,6 +242,16 @@ local cuttingbread_emotes = {
     ["ork"] = path .. "orkworm.tga:16:89",
     ["garf"] = path .. "garf.tga:32:32",
     ["ongarf"] = path .. "ongarf.tga:32:26",
+    ["gard"] = path .. "gard.tga:16:89",
+    ["scoutjoblads"] = path .. "scoutjoblads.tga:32:32",
+    ["ongromp"] = path .. "ongromp.tga:32:32",
+    ["inri"] = path .. "inri.tga:32:32",
+    ["ork_oke"] = path .. "ork_oke.tga:32:32",
+    ["truegenius2"] = path .. "truegenius2.tga:32:32",
+    ["mald"] = path .. "mald.tga:32:23",
+    ["anebwithhair"] = path .. "anebwithhair.tga:32:23",
+    ["dream"] = path .. "dream.tga:16:32",
+    ["beating"] = path .. "beating.tga:64:64",
 }
 
 TwitchEmotesCuttingBread_AddAnimation(
@@ -351,6 +370,14 @@ TwitchEmotesCuttingBread_AddAnimation(path .. "dealwithit.tga", 10, 32, 32, 32, 
 TwitchEmotesCuttingBread_AddAnimation(path .. "elclassico.tga", 61, 32, 32, 32, 32 * 61, 20)
 TwitchEmotesCuttingBread_AddAnimation(path .. "greenclassic.tga", 51, 32, 32, 32, 32 * 51, 20)
 TwitchEmotesCuttingBread_AddAnimation(path .. "yap.tga", 32, 32, 32, 32, 32 * 32, 20)
+TwitchEmotesCuttingBread_AddAnimation(path .. "docyap.tga", 19, 32, 32, 32, 32 * 19, 20)
+TwitchEmotesCuttingBread_AddAnimation(path .. "1984.tga", 30, 32, 32, 32, 32 * 30, 20)
+TwitchEmotesCuttingBread_AddAnimation(path .. "ret.tga", 24, 32, 32, 32, 32 * 24, 20)
+TwitchEmotesCuttingBread_AddAnimation(path .. "BANGER.tga", 14, 32, 32, 32, 32 * 14, 20)
+TwitchEmotesCuttingBread_AddAnimation(path .. "wifecheck.tga", 156, 32, 32, 32, 32 * 156, 20)
+TwitchEmotesCuttingBread_AddAnimation(path .. "iq.tga", 143, 32, 32, 32, 32 * 143, 20)
+TwitchEmotesCuttingBread_AddAnimation(path .. "9parse.tga", 264, 32, 32, 32, 32 * 264, 20)
+TwitchEmotesCuttingBread_AddAnimation(path .. "assault.tga", 86, 32, 32, 32, 32 * 86, 20)
 
 function cuttingbread_table_length(T)
   local count = 0
