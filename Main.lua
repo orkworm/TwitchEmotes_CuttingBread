@@ -200,7 +200,7 @@ local cuttingbread_emotes = {
     ["toast"] = path .. "toast.tga:28:28",
     ["tuh"] = path .. "tuh.tga:28:28",
     ["vaism"] = path .. "vaism.tga:20:72",
-    ["waterboy"] = path .. "waterboy.tga:28:28",
+    ["waterboy"] = path .. "waterboy.tga:64:64",
     ["willy"] = path .. "willy.tga:12:56",
     ["wipeit"] = path .. "wipeit.tga:28:28",
     ["wow_Death_Knight"] = path .. "wow_Death_Knight.tga:28:28",
@@ -256,6 +256,9 @@ local cuttingbread_emotes = {
     ["crashout"] = path .. "crashout.tga:25:177",
     ["nattysus2"] = path .. "nattysus2.tga:56:80",
     ["SUS2"] = path .. "SUS2.tga:32:32",
+    ["malta"] = path .. "malta.tga:136:192",
+    ["malta2"] = path .. "malta2.tga:135:84",
+    ["yesdear"] = path .. "yesdear.tga:32:32",
 }
 
 TwitchEmotesCuttingBread_AddAnimation(
